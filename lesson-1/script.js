@@ -25,7 +25,7 @@ const renderGoodsItem = (src="https://directsalez.ru/wp-content/uploads/2020/07/
 
 const renderGoodsList = list => {
     let goodsList = list.map(item => renderGoodsItem(item.src, item.title, item.price));
-    document.querySelector('.goods-list').innerHTML = goodsList.join('');
+    document.querySelector('.goods-list').innerHTML = goodsList.join(''); //убрала разделители в массиве
 }
 
 const init = () => {
