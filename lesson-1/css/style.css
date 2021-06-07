@@ -112,4 +112,13 @@ span {
   outline: none;
   background-color: #d1a66e;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: black;
+  height: 90px;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
